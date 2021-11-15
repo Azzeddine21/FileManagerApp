@@ -61,7 +61,7 @@ public class SignUp extends AppCompatActivity {
                         data[1] = password;
                         data[2] = fullname;
                         data[3] = email;
-                        //Envoie des donnéees
+                        //Envoie des donnéeees
                         PutData putData = new PutData("http://192.168.148.191/php_androidProject/signup.php", "POST", field, data);
                         if (putData.startPut()) {
                             if (putData.onComplete()) {

@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19adb57b-acef-4ae4-a4fd-eae7b929c2c7" name="Default Changelist" comment="" />
+    <list default="true" id="19adb57b-acef-4ae4-a4fd-eae7b929c2c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/easytutofilemanager/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/easytutofilemanager/SignUp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,7 +144,35 @@
       <option name="project" value="LOCAL" />
       <updated>1636947725013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1er commit">
+      <created>1636948636021</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636948636021</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1er commit">
+      <created>1636948707458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636948707458</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1er commit">
+      <created>1636948785923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636948785923</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1er commit">
+      <created>1636948830847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636948830847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,8 +187,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1er commit" />
     <MESSAGE value="branche master" />
-    <option name="LAST_COMMIT_MESSAGE" value="branche master" />
+    <MESSAGE value="1er commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1er commit" />
   </component>
 </project>
