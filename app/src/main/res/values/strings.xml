@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EasyTutoFileManager</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="fullname">fullname</string>
+    <string name="email">email</string>
+</resources>

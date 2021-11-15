@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileListActivity">
+
+    <TextView
+        android:id="@+id/nofiles_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO FILES FOUND"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        android:id="@+id/recycler_view"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <com.nambimobile.widgets.efab.ExpandableFabLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/efab_ui_margin_large">
+
+        <com.nambimobile.widgets.efab.Overlay
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:overlay_color="@color/black"/>
+
+        <com.nambimobile.widgets.efab.ExpandableFab
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="65dp"
+            android:layout_marginEnd="@dimen/efab_ui_margin_large"
+            android:layout_marginRight="@dimen/efab_ui_margin_large"
+            app:efab_iconAnimationRotationDeg="45"
+            app:efab_openingAnimationDurationMs="250"
+            app:efab_closingAnimationDurationMs="250"/>
+
+        <com.nambimobile.widgets.efab.FabOption
+            android:id="@+id/add_Folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_baseline_create_new_folder_24"
+            app:label_text="Ajouter un dossier"
+            android:onClick="CreateFolder"/>
+        <com.nambimobile.widgets.efab.FabOption
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_baseline_note_add_24"
+            app:label_text="Ajouter un document"
+            android:onClick="option1Clicked"/>
+        <com.nambimobile.widgets.efab.FabOption
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_baseline_add_a_photo_24"
+            app:label_text="Prendre une photo"
+            android:onClick="option1Clicked"/>
+
+    </com.nambimobile.widgets.efab.ExpandableFabLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
